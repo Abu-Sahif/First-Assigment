@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     margin: o;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     margin-right: 160px;
     margin-left: 160px;
     font-family: 'Fira Sans', sans-serif;
 }
 
 /* navbar section style stared here */
-.nav{
+.nav {
     margin-top: 31px;
     margin-bottom: 31px;
     display: flex;
@@ -41,3 +41,39 @@ body{
 }
 
 /* navar section style ended here */
+
+/* heror section sytle started here */
+.hero {
+    padding: 117px 60px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.heroContent h4 {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.heroContent h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.heroContent button {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    outline: none;
+    color: white;
+    border: none;
+}
+
+/* hero section style ended here */
