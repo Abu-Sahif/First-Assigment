@@ -79,16 +79,17 @@ body {
 
 /* hero section style ended here */
 
-/* card section started */
+/* card section style started */
+.cardTitle {
+    margin-top: 120px;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
 .cards {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-}
-.cards h1 {
-    margin-top: 120px;
-    font-size: 48px;
-    margin-bottom: 32px;
 }
 
 .card-box {
@@ -115,3 +116,82 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* card seciton style ended here */
+
+/* future card section style started here */
+.baseText {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.futureCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.futureCard {
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.futureCard2 {
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.futureCard3 {
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.futureCard h4 {
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.futureCard p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.futureCard button {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    outline: none;
+    color: white;
+    border: none;
+}
+.futureCard2 button {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    outline: none;
+    color: white;
+    border: none;
+}
+.futureCard3 button {
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    outline: none;
+    color: white;
+    border: none;
+}
+
+/* future card style ended here */
