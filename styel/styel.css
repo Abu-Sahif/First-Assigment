@@ -47,6 +47,7 @@ body {
     padding: 117px 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 64px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -77,3 +78,40 @@ body {
 }
 
 /* hero section style ended here */
+
+/* card section started */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.cards h1 {
+    margin-top: 120px;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+.card-box {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.card-box img {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 0;
+}
+
+.card-box h4 {
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-box p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
