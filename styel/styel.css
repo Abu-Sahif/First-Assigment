@@ -127,6 +127,10 @@ body {
     margin-bottom: 32px;
 }
 
+.future {
+    margin-bottom: 32px;
+}
+
 .futureCards {
     display: flex;
     justify-content: space-between;
@@ -140,6 +144,7 @@ body {
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
 }
+
 .futureCard2 {
     width: 410.67px;
     height: 325px;
@@ -147,6 +152,7 @@ body {
     border-radius: 16px;
     background: rgb(198, 228, 214);
 }
+
 .futureCard3 {
     width: 410.67px;
     height: 325px;
@@ -177,6 +183,7 @@ body {
     color: white;
     border: none;
 }
+
 .futureCard2 button {
     padding: 17px 34px;
     border-radius: 8px;
@@ -185,6 +192,7 @@ body {
     color: white;
     border: none;
 }
+
 .futureCard3 button {
     padding: 17px 34px;
     border-radius: 8px;
@@ -195,3 +203,36 @@ body {
 }
 
 /* future card style ended here */
+
+/* quote section style started here */
+.qoute {
+    padding: 48px 10px;
+    border: 1px solid rgba(45, 45, 45, 0.15);
+    border-radius: 15px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+}
+
+.qoute p {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.qoute h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.qoute span {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* quote section style ended here */
+
